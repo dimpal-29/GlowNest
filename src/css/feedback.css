@@ -1,0 +1,171 @@
+/* ============================================
+   GlowNest — Feedback Page Styles
+   ============================================ */
+
+.feedback-section {
+    background-color: var(--color-bg);
+    min-height: 60vh;
+    display: flex;
+    align-items: center;
+}
+
+.feedback-container {
+    max-width: 800px;
+    margin: 0 auto;
+    background: var(--color-white);
+    padding: var(--space-3xl);
+    border-radius: var(--radius-lg);
+    box-shadow: var(--shadow-xl);
+    border: 1px solid rgba(109, 76, 65, 0.05);
+}
+
+.feedback-header {
+    margin-bottom: var(--space-2xl);
+}
+
+.feedback-header h2 {
+    font-size: 2.2rem;
+    color: var(--color-secondary);
+    margin-bottom: var(--space-sm);
+}
+
+.feedback-header p {
+    color: var(--color-text-muted);
+}
+
+.feedback-page-form .form-group label {
+    display: block;
+    font-family: var(--font-body);
+    font-weight: 600;
+    color: var(--color-secondary);
+    margin-bottom: var(--space-sm);
+}
+
+.star-rating-input {
+    display: flex;
+    gap: 10px;
+    font-size: 2.5rem;
+    color: #e0e0e0;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.star-rating-input .star {
+    transition: transform 0.2s ease, color 0.2s ease;
+}
+
+.star-rating-input .star:hover {
+    transform: scale(1.2);
+}
+
+.star-rating-input .star.active {
+    color: var(--color-gold);
+}
+
+.rating-hint {
+    margin-top: 0.5rem;
+    font-size: 0.9rem;
+    font-weight: 500;
+    color: var(--color-gold);
+    min-height: 1.2rem;
+}
+
+.form-input {
+    width: 100%;
+    padding: 1rem 1.25rem;
+    border-radius: var(--radius-md);
+    border: 1px solid rgba(109, 76, 65, 0.1);
+    background: var(--color-bg-alt);
+    font-family: var(--font-body);
+    transition: all 0.3s ease;
+}
+
+.form-input:focus {
+    background: var(--color-white);
+    border-color: var(--color-primary);
+    box-shadow: 0 0 0 4px rgba(109, 76, 65, 0.1);
+    outline: none;
+}
+
+.success-message {
+    padding: var(--space-2xl) 0;
+    animation: fadeIn 0.5s ease;
+}
+
+.success-icon {
+    font-size: 4rem;
+    color: var(--color-success);
+    margin-bottom: var(--space-md);
+}
+
+.success-message h2 {
+    margin-bottom: var(--space-sm);
+}
+
+/* Page Header Override for specific branding */
+.page-header {
+    padding: 100px 0;
+    text-align: center;
+    color: var(--color-white);
+}
+
+.page-header h1 {
+    color: var(--color-white);
+    font-size: 3.5rem;
+    margin-bottom: 1rem;
+}
+
+.page-header p {
+    color: rgba(255, 255, 255, 0.9);
+    font-size: 1.1rem;
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.page-header .breadcrumb {
+    color: rgba(255, 255, 255, 0.8);
+    margin-top: var(--space-md);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.page-header .breadcrumb a {
+    color: rgba(255, 255, 255, 0.8);
+    transition: color 0.3s ease;
+}
+
+.page-header .breadcrumb a:hover {
+    color: var(--color-gold);
+}
+
+.box-reveal {
+    animation: boxReveal 0.8s cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+@keyframes boxReveal {
+    from {
+        opacity: 0;
+        transform: translateY(40px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+    .feedback-container {
+        padding: var(--space-xl);
+    }
+    
+    .star-rating-input {
+        font-size: 2rem;
+    }
+    
+    .feedback-header h2 {
+        font-size: 1.8rem;
+    }
+}

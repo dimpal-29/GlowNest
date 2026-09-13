@@ -1,0 +1,48 @@
+@import './css/style.css';
+
+/* React Specific additions */
+#root {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+/* Adjustments for transitions and custom React dialog states */
+.app-confirm-overlay {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  pointer-events: none;
+  opacity: 0;
+  transition: opacity 0.3s ease;
+}
+
+.app-confirm-overlay.active {
+  pointer-events: auto;
+  opacity: 1;
+}
+
+.glow-alert-overlay {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  pointer-events: none;
+  opacity: 0;
+  transition: opacity 0.3s ease;
+}
+
+.glow-alert-overlay.active {
+  pointer-events: auto;
+  opacity: 1;
+}
+
+/* Add custom animations for modal transitions if not present */
+@keyframes fadeIn {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
+
+@keyframes slideUp {
+  from { transform: translateY(20px); opacity: 0; }
+  to { transform: translateY(0); opacity: 1; }
+}

@@ -1,0 +1,250 @@
+/* ============================================
+   GlowNest — Packages Page Styles
+   ============================================ */
+
+/* ---- Packages Section ---- */
+.packages-section {
+  padding: var(--space-4xl) 0;
+}
+
+.packages-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: var(--space-xl);
+  align-items: start;
+}
+
+.package-card {
+  background: var(--color-white);
+  border-radius: var(--radius-lg);
+  overflow: hidden;
+  border: 1px solid rgba(109, 76, 65, 0.1);
+  transition: all var(--transition-base);
+  position: relative;
+}
+
+.package-card:hover {
+  transform: translateY(-10px);
+  box-shadow: var(--shadow-xl);
+}
+
+.package-card.popular {
+  border: 2px solid var(--color-gold);
+  transform: scale(1.05);
+  z-index: 2;
+}
+
+.package-card.popular:hover {
+  transform: scale(1.05) translateY(-10px);
+}
+
+.popular-badge {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  background: linear-gradient(135deg, var(--color-gold), #C49158);
+  color: var(--color-white);
+  text-align: center;
+  padding: 0.5rem;
+  font-size: 0.8rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+.package-header {
+  padding: var(--space-2xl) var(--space-xl) var(--space-lg);
+  text-align: center;
+  background: linear-gradient(180deg, var(--color-accent-light) 0%, var(--color-white) 100%);
+}
+
+.package-card.popular .package-header {
+  padding-top: 3.5rem;
+}
+
+.package-icon {
+  font-size: 2.5rem;
+  margin-bottom: var(--space-md);
+}
+
+.package-header h3 {
+  font-size: 1.3rem;
+  margin-bottom: var(--space-sm);
+}
+
+.package-header .package-subtitle {
+  font-size: 0.85rem;
+  color: var(--color-text-muted);
+}
+
+.package-price {
+  padding: var(--space-lg) var(--space-xl);
+  text-align: center;
+  border-bottom: 1px solid rgba(109, 76, 65, 0.1);
+}
+
+.package-price .original-price {
+  font-size: 1rem;
+  color: var(--color-text-muted);
+  text-decoration: line-through;
+  margin-bottom: 0.2rem;
+}
+
+.package-price .current-price {
+  font-family: var(--font-heading);
+  font-size: 2.5rem;
+  font-weight: 700;
+  color: var(--color-primary);
+}
+
+.package-price .current-price span {
+  font-size: 1rem;
+  font-weight: 400;
+  color: var(--color-text-muted);
+}
+
+.package-price .savings {
+  display: inline-block;
+  margin-top: var(--space-sm);
+  padding: 0.2rem 0.8rem;
+  background: rgba(76, 175, 80, 0.1);
+  color: var(--color-success);
+  border-radius: var(--radius-xl);
+  font-size: 0.78rem;
+  font-weight: 600;
+}
+
+.package-features {
+  padding: var(--space-xl);
+}
+
+.package-features ul {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-md);
+}
+
+.package-features li {
+  display: flex;
+  align-items: center;
+  gap: var(--space-sm);
+  font-size: 0.9rem;
+  color: var(--color-text-light);
+}
+
+.package-features li .check {
+  color: var(--color-success);
+  font-size: 1.1rem;
+  flex-shrink: 0;
+}
+
+.package-features li .cross {
+  color: var(--color-text-muted);
+  font-size: 1.1rem;
+  flex-shrink: 0;
+  opacity: 0.4;
+}
+
+.package-features li.disabled {
+  opacity: 0.45;
+  text-decoration: line-through;
+}
+
+.package-footer {
+  padding: 0 var(--space-xl) var(--space-xl);
+}
+
+.package-footer .btn {
+  width: 100%;
+  justify-content: center;
+}
+
+/* ---- Comparison Table ---- */
+.comparison-section {
+  padding: var(--space-4xl) 0;
+  background: var(--color-bg-alt);
+}
+
+.comparison-table-wrapper {
+  overflow-x: auto;
+  border-radius: var(--radius-lg);
+  box-shadow: var(--shadow-md);
+}
+
+.comparison-table {
+  width: 100%;
+  border-collapse: collapse;
+  background: var(--color-white);
+  min-width: 700px;
+}
+
+.comparison-table thead {
+  background: linear-gradient(135deg, var(--color-secondary), var(--color-secondary-light));
+}
+
+.comparison-table th {
+  padding: 1.2rem 1rem;
+  color: var(--color-white);
+  font-family: var(--font-heading);
+  font-size: 1rem;
+  font-weight: 600;
+  text-align: center;
+}
+
+.comparison-table th:first-child {
+  text-align: left;
+  padding-left: 1.5rem;
+}
+
+.comparison-table td {
+  padding: 1rem;
+  text-align: center;
+  font-size: 0.9rem;
+  border-bottom: 1px solid rgba(109, 76, 65, 0.08);
+}
+
+.comparison-table td:first-child {
+  text-align: left;
+  padding-left: 1.5rem;
+  font-weight: 500;
+  color: var(--color-text);
+}
+
+.comparison-table tbody tr:hover {
+  background: var(--color-accent-light);
+}
+
+.comparison-table .check-mark {
+  color: var(--color-success);
+  font-size: 1.2rem;
+}
+
+.comparison-table .cross-mark {
+  color: var(--color-text-muted);
+  opacity: 0.3;
+  font-size: 1.2rem;
+}
+
+/* ---- Responsive ---- */
+@media (max-width: 1024px) {
+  .packages-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .package-card.popular {
+    transform: scale(1);
+  }
+
+  .package-card.popular:hover {
+    transform: translateY(-10px);
+  }
+}
+
+@media (max-width: 768px) {
+  .packages-grid {
+    grid-template-columns: 1fr;
+    max-width: 400px;
+    margin: 0 auto;
+  }
+}

@@ -1,0 +1,296 @@
+/* ============================================
+   GlowNest — Services Page Styles
+   ============================================ */
+
+/* ---- Page Header ---- */
+.page-header {
+  padding: 10rem 0 4rem;
+  text-align: center;
+}
+
+
+.page-header h1 {
+  color: var(--color-white);
+  margin-bottom: var(--space-md);
+  position: relative;
+  z-index: 2;
+}
+
+.page-header p {
+  color: rgba(255, 255, 255, 0.75);
+  max-width: 550px;
+  margin: 0 auto;
+  font-size: 1.05rem;
+  position: relative;
+  z-index: 2;
+}
+
+.page-header .breadcrumb {
+  display: flex;
+  justify-content: center;
+  gap: var(--space-sm);
+  margin-top: var(--space-lg);
+  font-size: 0.88rem;
+  color: rgba(255, 255, 255, 0.6);
+  position: relative;
+  z-index: 2;
+}
+
+.page-header .breadcrumb a {
+  color: var(--color-gold-light);
+}
+
+.page-header .breadcrumb a:hover {
+  color: var(--color-gold);
+}
+
+/* ---- Filter/Category Tabs ---- */
+.filter-section {
+  padding: 32px 0;
+  background: var(--color-bg);
+  border-bottom: 1px solid rgba(109, 76, 65, 0.1);
+}
+
+.filter-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: var(--space-xl);
+  flex-wrap: wrap;
+}
+
+.filter-tabs {
+  display: flex;
+  gap: var(--space-sm);
+  flex-wrap: wrap;
+}
+
+.filter-tab {
+  padding: 0.6rem 1.4rem;
+  border-radius: var(--radius-xl);
+  font-size: 0.9rem;
+  font-weight: 500;
+  color: var(--color-text-light);
+  background: var(--color-white);
+  border: 1px solid rgba(109, 76, 65, 0.15);
+  cursor: pointer;
+  transition: all var(--transition-base);
+}
+
+.filter-tab:hover {
+  border-color: var(--color-primary);
+  color: var(--color-primary);
+}
+
+.filter-tab.active {
+  background: linear-gradient(135deg, var(--color-primary), var(--color-primary-dark));
+  color: var(--color-white);
+  border-color: var(--color-primary);
+  box-shadow: 0 4px 12px rgba(109, 76, 65, 0.3);
+}
+
+.search-bar {
+  position: relative;
+  min-width: 280px;
+}
+
+.search-bar input {
+  width: 100%;
+  padding: 0.7rem 1.2rem 0.7rem 2.8rem;
+  border-radius: var(--radius-xl);
+  border: 1px solid rgba(109, 76, 65, 0.15);
+  background: var(--color-white);
+  font-size: 0.9rem;
+  transition: all var(--transition-base);
+}
+
+.search-bar input:focus {
+  border-color: var(--color-primary);
+  box-shadow: 0 0 0 3px rgba(109, 76, 65, 0.1);
+}
+
+.search-bar .search-icon {
+  position: absolute;
+  left: 1rem;
+  top: 50%;
+  transform: translateY(-50%);
+  font-size: 1rem;
+  color: var(--color-text-muted);
+}
+
+/* ---- Services Grid ---- */
+.services-listing {
+  padding: var(--space-3xl) 0;
+}
+
+.services-full-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: var(--space-xl);
+}
+
+.service-detail-card {
+  background: var(--color-white);
+  border-radius: var(--radius-lg);
+  overflow: hidden;
+  border: 1px solid rgba(109, 76, 65, 0.08);
+  transition: all var(--transition-base);
+  position: relative;
+}
+
+.service-detail-card:hover {
+  transform: translateY(-8px);
+  box-shadow: var(--shadow-lg);
+}
+
+.service-detail-card .card-image {
+  height: 300px;
+  background: var(--color-bg-alt);
+  position: relative;
+  overflow: hidden;
+}
+
+.service-detail-card .card-image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: transform var(--transition-slow);
+}
+
+.service-detail-card:hover .card-image img {
+  transform: scale(1.05);
+}
+
+.service-detail-card .card-image::after {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 50px;
+  background: linear-gradient(to top, var(--color-white), transparent);
+}
+
+.service-detail-card .card-body {
+  padding: var(--space-xl);
+}
+
+.service-detail-card .card-category {
+  display: inline-block;
+  padding: 0.25rem 0.8rem;
+  background: var(--color-accent-light);
+  color: var(--color-primary);
+  border-radius: var(--radius-xl);
+  font-size: 0.75rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  margin-bottom: var(--space-md);
+}
+
+.service-detail-card h3 {
+  font-size: 1.15rem;
+  margin-bottom: var(--space-sm);
+}
+
+.service-detail-card .card-desc {
+  font-size: 0.88rem;
+  color: var(--color-text-light);
+  margin-bottom: var(--space-lg);
+  line-height: 1.6;
+}
+
+.service-detail-card .card-meta {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-top: var(--space-md);
+  border-top: 1px solid rgba(109, 76, 65, 0.1);
+}
+
+.service-detail-card .card-meta .duration {
+  display: flex;
+  align-items: center;
+  gap: 0.3rem;
+  font-size: 0.85rem;
+  color: var(--color-text-muted);
+}
+
+.service-detail-card .card-meta .price {
+  font-size: 1.15rem;
+  font-weight: 700;
+  color: var(--color-primary);
+}
+
+.service-detail-card .book-service-btn {
+  display: block;
+  width: 100%;
+  padding: 0.8rem;
+  margin-top: var(--space-md);
+  text-align: center;
+  background: linear-gradient(135deg, var(--color-primary), var(--color-primary-dark));
+  color: var(--color-white);
+  border-radius: var(--radius-md);
+  font-weight: 600;
+  font-size: 0.9rem;
+  transition: all var(--transition-base);
+  opacity: 1;
+  transform: translateY(0);
+}
+
+.book-service-btn:hover {
+  box-shadow: 0 4px 15px rgba(109, 76, 65, 0.3);
+}
+
+/* No Results */
+.no-results {
+  grid-column: 1 / -1;
+  text-align: center;
+  padding: var(--space-4xl) var(--space-xl);
+}
+
+.no-results .icon {
+  font-size: 3rem;
+  margin-bottom: var(--space-lg);
+}
+
+.no-results h3 {
+  margin-bottom: var(--space-sm);
+}
+
+/* ---- Responsive ---- */
+@media (max-width: 1024px) {
+  .services-full-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 768px) {
+  .page-header {
+    padding: 8rem 0 3rem;
+  }
+
+  .filter-wrapper {
+    flex-direction: column;
+    align-items: stretch;
+  }
+
+  .filter-tabs {
+    justify-content: center;
+  }
+
+  .search-bar {
+    min-width: unset;
+  }
+
+  .services-full-grid {
+    grid-template-columns: 1fr;
+    max-width: 450px;
+    margin: 0 auto;
+  }
+
+  .service-detail-card .book-service-btn {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}

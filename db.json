@@ -36,7 +36,7 @@
     {
       "id": "svc_1",
       "category": "hair",
-      "image": "/src/assets/services/svc_1_haircut.jpg",
+      "image": "/services/svc_1_haircut.jpg",
       "title": "Classic Haircut",
       "desc": "Precision haircut customized to your style preferences, including wash and simple blow-dry.",
       "duration": "45 mins",
@@ -45,7 +45,7 @@
     {
       "id": "svc_2",
       "category": "hair",
-      "image": "/src/assets/services/svc_2_hair_styling.jpg",
+      "image": "/services/svc_2_hair_styling.jpg",
       "title": "Advanced Hair Styling",
       "desc": "Expert professional haircutting and styling tailored to your face shape and personal style.",
       "duration": "60 mins",
@@ -54,7 +54,7 @@
     {
       "id": "svc_3",
       "category": "hair",
-      "image": "/src/assets/services/svc_3_hair_color.jpg",
+      "image": "/services/svc_3_hair_color.jpg",
       "title": "Global Hair Color",
       "desc": "Ammonia-free premium hair coloring applied globally with deep conditioning treatment.",
       "duration": "120 mins",
@@ -63,7 +63,7 @@
     {
       "id": "svc_4",
       "category": "hair",
-      "image": "/src/assets/services/svc_4_keratin.jpg",
+      "image": "/services/svc_4_keratin.jpg",
       "title": "Keratin Treatment",
       "desc": "Restore your hair's natural protein. Eliminates frizz and adds incredible shine for up to 3 months.",
       "duration": "180 mins",
@@ -72,7 +72,7 @@
     {
       "id": "svc_5",
       "category": "hair",
-      "image": "/src/assets/services/svc_5_hair_spa.jpg",
+      "image": "/services/svc_5_hair_spa.jpg",
       "title": "Luxury Hair Spa",
       "desc": "Deep nourishing scalp mask and 20-minute relaxing head massage using Moroccan Argan oil.",
       "duration": "60 mins",
@@ -81,7 +81,7 @@
     {
       "id": "svc_6",
       "category": "skin",
-      "image": "/src/assets/services/svc_6_facial.jpg",
+      "image": "/services/svc_6_facial.jpg",
       "title": "Glow Classic Facial",
       "desc": "Deep cleansing, exfoliation, steaming, and a hydrating mask for an instant fresh glow.",
       "duration": "45 mins",
@@ -90,7 +90,7 @@
     {
       "id": "svc_7",
       "category": "skin",
-      "image": "/src/assets/services/svc_7_gold_facial.jpg",
+      "image": "/services/svc_7_gold_facial.jpg",
       "title": "24K Gold Radiance Facial",
       "desc": "A luxurious facial using 24K gold foil and pearl extracts for supreme radiance and skin tightening.",
       "duration": "75 mins",
@@ -99,7 +99,7 @@
     {
       "id": "svc_8",
       "category": "skin",
-      "image": "/src/assets/services/svc_8_antiaging.jpg",
+      "image": "/services/svc_8_antiaging.jpg",
       "title": "Anti-Aging Treatment",
       "desc": "Advanced collagen-boosting facial combining microcurrents and custom serums to reduce fine lines.",
       "duration": "90 mins",
@@ -108,7 +108,7 @@
     {
       "id": "svc_9",
       "category": "skin",
-      "image": "/src/assets/services/svc_9_acne.jpg",
+      "image": "/services/svc_9_acne.jpg",
       "title": "Acne Control Facial",
       "desc": "Salicylic acid peel, deep pore extraction, and high-frequency therapy to calm active breakouts.",
       "duration": "60 mins",
@@ -117,7 +117,7 @@
     {
       "id": "svc_10",
       "category": "nails",
-      "image": "/src/assets/services/svc_10_manicure.jpg",
+      "image": "/services/svc_10_manicure.jpg",
       "title": "Luxury Spa Manicure",
       "desc": "Hand scrub, massage, cuticle care, and application of premium long-lasting OPI nail polish.",
       "duration": "45 mins",
@@ -126,7 +126,7 @@
     {
       "id": "svc_11",
       "category": "nails",
-      "image": "/src/assets/services/svc_11_pedicure.jpg",
+      "image": "/services/svc_11_pedicure.jpg",
       "title": "Aroma Sea-Salt Pedicure",
       "desc": "A relaxing foot soak with sea salts, deep exfoliation, callus removal, and an extended reflexology massage.",
       "duration": "60 mins",
@@ -135,7 +135,7 @@
     {
       "id": "svc_12",
       "category": "nails",
-      "image": "/src/assets/services/svc_12_gel_nails.jpg",
+      "image": "/services/svc_12_gel_nails.jpg",
       "title": "Gel Polish & Nail Art",
       "desc": "UV-cured gel polish with custom hand-painted nail art designs for up to 10 fingers.",
       "duration": "60 mins",
@@ -144,7 +144,7 @@
     {
       "id": "svc_13",
       "category": "nails",
-      "image": "/src/assets/services/svc_13_acrylic.jpg",
+      "image": "/services/svc_13_acrylic.jpg",
       "title": "Acrylic Extensions",
       "desc": "Full set of premium acrylic nail extensions applied by certified artists, finished with gel color.",
       "duration": "120 mins",
@@ -153,7 +153,7 @@
     {
       "id": "svc_14",
       "category": "makeup",
-      "image": "/src/assets/services/svc_14_party_makeup.jpg",
+      "image": "/services/svc_14_party_makeup.jpg",
       "title": "Party / Occasion Makeup",
       "desc": "Flawless long-lasting makeup application tailored for evening events and special occasions.",
       "duration": "60 mins",
@@ -162,7 +162,7 @@
     {
       "id": "svc_15",
       "category": "makeup",
-      "image": "/src/assets/services/svc_15_airbrush.jpg",
+      "image": "/services/svc_15_airbrush.jpg",
       "title": "Airbrush HD Base Makeup",
       "desc": "High-definition airbrush base for an impeccable, photo-ready finish that lasts 12+ hours.",
       "duration": "90 mins",
@@ -171,7 +171,7 @@
     {
       "id": "svc_16",
       "category": "makeup",
-      "image": "/src/assets/photoshoot-makeup.png",
+      "image": "/photoshoot-makeup.png",
       "title": "Photoshoot Makeup",
       "desc": "Professional camera-ready makeup look specially designed for photoshoots, modeling, and studio shoots.",
       "duration": "75 mins",
@@ -180,7 +180,7 @@
     {
       "id": "svc_17",
       "category": "spa",
-      "image": "/src/assets/services/svc_17_swedish_massage.jpg",
+      "image": "/services/svc_17_swedish_massage.jpg",
       "title": "Classic Swedish Massage",
       "desc": "Full-body relaxing massage using long, flowing strokes to improve circulation and relieve stress.",
       "duration": "60 mins",
@@ -189,7 +189,7 @@
     {
       "id": "svc_18",
       "category": "spa",
-      "image": "/src/assets/services/svc_18_deep_tissue.jpg",
+      "image": "/services/svc_18_deep_tissue.jpg",
       "title": "Deep Tissue Therapy",
       "desc": "Intense therapeutic massage targeting deep muscle layers to relieve chronic tension and knots.",
       "duration": "90 mins",
@@ -198,7 +198,7 @@
     {
       "id": "svc_19",
       "category": "spa",
-      "image": "/src/assets/services/svc_19_hot_stone.jpg",
+      "image": "/services/svc_19_hot_stone.jpg",
       "title": "Hot Stone Ritual",
       "desc": "A deeply warming and comforting massage using smooth, heated basalt stones placed on key energy points.",
       "duration": "90 mins",
@@ -207,7 +207,7 @@
     {
       "id": "svc_20",
       "category": "spa",
-      "image": "/src/assets/services/svc_20_body_polish.jpg",
+      "image": "/services/svc_20_body_polish.jpg",
       "title": "Aroma Body Polish",
       "desc": "Full-body exfoliation using essential oils and natural sea salt scrub to reveal soft, glowing skin.",
       "duration": "45 mins",
@@ -216,7 +216,7 @@
     {
       "id": "svc_21",
       "category": "bridal",
-      "image": "/src/assets/services/svc_21_prewedding.jpg",
+      "image": "/services/svc_21_prewedding.jpg",
       "title": "30-Day Pre-Bridal Prep",
       "desc": "A complete regimen starting a month before the wedding: facials, body polishing, hair spa, and wax.",
       "duration": "Sessions",
@@ -226,7 +226,7 @@
     {
       "id": "svc_22",
       "category": "bridal",
-      "image": "/src/assets/services/svc_22_bridal_airbrush.jpg",
+      "image": "/services/svc_22_bridal_airbrush.jpg",
       "title": "Signature Bridal Airbrush",
       "desc": "The ultimate bridal makeover. Includes premium HD airbrush makeup, intricate hairstyling, and draping.",
       "duration": "180 mins",
@@ -236,7 +236,7 @@
     {
       "id": "svc_23",
       "category": "bridal",
-      "image": "/src/assets/engagement-makeup.png",
+      "image": "/services/engagement-makeup.png",
       "title": "Engagement Makeup",
       "desc": "Elegant and glamorous makeup look for your engagement ceremony, designed to make you shine under any light.",
       "duration": "90 mins",
@@ -245,7 +245,7 @@
     {
       "id": "svc_24",
       "category": "bridal",
-      "image": "/src/assets/mehndi-makeup.png",
+      "image": "/services/mehndi-makeup.png",
       "title": "Mehndi Makeup",
       "desc": "Fresh, colorful, and vibrant makeup look perfectly suited for the joy and energy of your mehndi celebration.",
       "duration": "75 mins",
@@ -254,7 +254,7 @@
     {
       "id": "svc_25",
       "category": "bridal",
-      "image": "/src/assets/haldi-makeup.png",
+      "image": "/services/haldi-makeup.png",
       "title": "Haldi Makeup",
       "desc": "Soft natural glowing makeup look for your haldi function, emphasizing your natural beauty and radiance.",
       "duration": "60 mins",
@@ -263,7 +263,7 @@
     {
       "id": "svc_26",
       "category": "bridal",
-      "image": "/src/assets/wedding-makeup.png",
+      "image": "/services/wedding-makeup.png",
       "title": "Wedding Bridal Makeup",
       "desc": "Full traditional bridal transformation for your big day, using premium products for a long-lasting, majestic look.",
       "duration": "150 mins",
@@ -272,7 +272,7 @@
     {
       "id": "svc_27",
       "category": "bridal",
-      "image": "/src/assets/reception-makeup.png",
+      "image": "/services/reception-makeup.png",
       "title": "Reception Makeup",
       "desc": "Luxury glamorous makeup look for your reception event, blending sophistication with modern bridal elegance.",
       "duration": "90 mins",

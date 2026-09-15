@@ -1,6 +1,6 @@
 import axios from 'axios';
 
-const API_URL = 'https://glownest-api-yvrt.onrender.com';
+const API_URL = 'https://glownest-api-yyrt.onrender.com';
 
 export const api = {
   get: async (endpoint) => {

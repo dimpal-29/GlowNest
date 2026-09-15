@@ -1,1 +1,743 @@
-git add .
+{
+  "users": [
+    {
+      "firstName": "Mahek",
+      "lastName": "Savaliya",
+      "email": "mahek@gmail.com",
+      "password": "8d969eef6ecad3c29a3a629280e686cf0c3f5d5a86aff3ca12020c923adc6c92",
+      "id": "PQhQjAvumb0"
+    },
+    {
+      "firstName": "Dimpal",
+      "lastName": "N",
+      "email": "ndimpal991@gmail.com",
+      "phone": "9574816747",
+      "password": "8d969eef6ecad3c29a3a629280e686cf0c3f5d5a86aff3ca12020c923adc6c92",
+      "id": "2Uev6ze4Xjc"
+    },
+    {
+      "firstName": "Disha",
+      "lastName": "N",
+      "email": "disha@gmail.com",
+      "phone": "9632587412",
+      "password": "8d969eef6ecad3c29a3a629280e686cf0c3f5d5a86aff3ca12020c923adc6c92",
+      "id": "X5kFigeb2zU"
+    },
+    {
+      "firstName": "Diya",
+      "lastName": "patel",
+      "email": "diya@gmail.com",
+      "phone": "9638527412",
+      "password": "8d969eef6ecad3c29a3a629280e686cf0c3f5d5a86aff3ca12020c923adc6c92",
+      "id": "kIURyyKW_pE"
+    }
+  ],
+  "services": [
+    {
+      "id": "svc_1",
+      "category": "hair",
+      "image": "/services/svc_1_haircut.jpg",
+      "title": "Classic Haircut",
+      "desc": "Precision haircut customized to your style preferences, including wash and simple blow-dry.",
+      "duration": "45 mins",
+      "price": "₹499"
+    },
+    {
+      "id": "svc_2",
+      "category": "hair",
+      "image": "/services/svc_2_hair_styling.jpg",
+      "title": "Advanced Hair Styling",
+      "desc": "Expert professional haircutting and styling tailored to your face shape and personal style.",
+      "duration": "60 mins",
+      "price": "₹899"
+    },
+    {
+      "id": "svc_3",
+      "category": "hair",
+      "image": "/services/svc_3_hair_color.jpg",
+      "title": "Global Hair Color",
+      "desc": "Ammonia-free premium hair coloring applied globally with deep conditioning treatment.",
+      "duration": "120 mins",
+      "price": "₹2,499"
+    },
+    {
+      "id": "svc_4",
+      "category": "hair",
+      "image": "/services/svc_4_keratin.jpg",
+      "title": "Keratin Treatment",
+      "desc": "Restore your hair's natural protein. Eliminates frizz and adds incredible shine for up to 3 months.",
+      "duration": "180 mins",
+      "price": "₹4,999"
+    },
+    {
+      "id": "svc_5",
+      "category": "hair",
+      "image": "/services/svc_5_hair_spa.jpg",
+      "title": "Luxury Hair Spa",
+      "desc": "Deep nourishing scalp mask and 20-minute relaxing head massage using Moroccan Argan oil.",
+      "duration": "60 mins",
+      "price": "₹1,299"
+    },
+    {
+      "id": "svc_6",
+      "category": "skin",
+      "image": "/services/svc_6_facial.jpg",
+      "title": "Glow Classic Facial",
+      "desc": "Deep cleansing, exfoliation, steaming, and a hydrating mask for an instant fresh glow.",
+      "duration": "45 mins",
+      "price": "₹999"
+    },
+    {
+      "id": "svc_7",
+      "category": "skin",
+      "image": "/services/svc_7_gold_facial.jpg",
+      "title": "24K Gold Radiance Facial",
+      "desc": "A luxurious facial using 24K gold foil and pearl extracts for supreme radiance and skin tightening.",
+      "duration": "75 mins",
+      "price": "₹2,499"
+    },
+    {
+      "id": "svc_8",
+      "category": "skin",
+      "image": "/services/svc_8_antiaging.jpg",
+      "title": "Anti-Aging Treatment",
+      "desc": "Advanced collagen-boosting facial combining microcurrents and custom serums to reduce fine lines.",
+      "duration": "90 mins",
+      "price": "₹3,499"
+    },
+    {
+      "id": "svc_9",
+      "category": "skin",
+      "image": "/services/svc_9_acne.jpg",
+      "title": "Acne Control Facial",
+      "desc": "Salicylic acid peel, deep pore extraction, and high-frequency therapy to calm active breakouts.",
+      "duration": "60 mins",
+      "price": "₹1,799"
+    },
+    {
+      "id": "svc_10",
+      "category": "nails",
+      "image": "/services/svc_10_manicure.jpg",
+      "title": "Luxury Spa Manicure",
+      "desc": "Hand scrub, massage, cuticle care, and application of premium long-lasting OPI nail polish.",
+      "duration": "45 mins",
+      "price": "₹699"
+    },
+    {
+      "id": "svc_11",
+      "category": "nails",
+      "image": "/services/svc_11_pedicure.jpg",
+      "title": "Aroma Sea-Salt Pedicure",
+      "desc": "A relaxing foot soak with sea salts, deep exfoliation, callus removal, and an extended reflexology massage.",
+      "duration": "60 mins",
+      "price": "₹899"
+    },
+    {
+      "id": "svc_12",
+      "category": "nails",
+      "image": "/services/svc_12_gel_nails.jpg",
+      "title": "Gel Polish & Nail Art",
+      "desc": "UV-cured gel polish with custom hand-painted nail art designs for up to 10 fingers.",
+      "duration": "60 mins",
+      "price": "₹1,199"
+    },
+    {
+      "id": "svc_13",
+      "category": "nails",
+      "image": "/services/svc_13_acrylic.jpg",
+      "title": "Acrylic Extensions",
+      "desc": "Full set of premium acrylic nail extensions applied by certified artists, finished with gel color.",
+      "duration": "120 mins",
+      "price": "₹2,999"
+    },
+    {
+      "id": "svc_14",
+      "category": "makeup",
+      "image": "/services/svc_14_party_makeup.jpg",
+      "title": "Party / Occasion Makeup",
+      "desc": "Flawless long-lasting makeup application tailored for evening events and special occasions.",
+      "duration": "60 mins",
+      "price": "₹2,499"
+    },
+    {
+      "id": "svc_15",
+      "category": "makeup",
+      "image": "/services/svc_15_airbrush.jpg",
+      "title": "Airbrush HD Base Makeup",
+      "desc": "High-definition airbrush base for an impeccable, photo-ready finish that lasts 12+ hours.",
+      "duration": "90 mins",
+      "price": "₹4,999"
+    },
+    {
+      "id": "svc_16",
+      "category": "makeup",
+      "image": "/photoshoot-makeup.png",
+      "title": "Photoshoot Makeup",
+      "desc": "Professional camera-ready makeup look specially designed for photoshoots, modeling, and studio shoots.",
+      "duration": "75 mins",
+      "price": "₹3,499"
+    },
+    {
+      "id": "svc_17",
+      "category": "spa",
+      "image": "/services/svc_17_swedish_massage.jpg",
+      "title": "Classic Swedish Massage",
+      "desc": "Full-body relaxing massage using long, flowing strokes to improve circulation and relieve stress.",
+      "duration": "60 mins",
+      "price": "₹1,999"
+    },
+    {
+      "id": "svc_18",
+      "category": "spa",
+      "image": "/services/svc_18_deep_tissue.jpg",
+      "title": "Deep Tissue Therapy",
+      "desc": "Intense therapeutic massage targeting deep muscle layers to relieve chronic tension and knots.",
+      "duration": "90 mins",
+      "price": "₹2,899"
+    },
+    {
+      "id": "svc_19",
+      "category": "spa",
+      "image": "/services/svc_19_hot_stone.jpg",
+      "title": "Hot Stone Ritual",
+      "desc": "A deeply warming and comforting massage using smooth, heated basalt stones placed on key energy points.",
+      "duration": "90 mins",
+      "price": "₹3,499"
+    },
+    {
+      "id": "svc_20",
+      "category": "spa",
+      "image": "/services/svc_20_body_polish.jpg",
+      "title": "Aroma Body Polish",
+      "desc": "Full-body exfoliation using essential oils and natural sea salt scrub to reveal soft, glowing skin.",
+      "duration": "45 mins",
+      "price": "₹1,799"
+    },
+    {
+      "id": "svc_21",
+      "category": "bridal",
+      "image": "/services/svc_21_prewedding.jpg",
+      "title": "30-Day Pre-Bridal Prep",
+      "desc": "A complete regimen starting a month before the wedding: facials, body polishing, hair spa, and wax.",
+      "duration": "Sessions",
+      "price": "₹12,999",
+      "isPackage": true
+    },
+    {
+      "id": "svc_22",
+      "category": "bridal",
+      "image": "/services/svc_22_bridal_airbrush.jpg",
+      "title": "Signature Bridal Airbrush",
+      "desc": "The ultimate bridal makeover. Includes premium HD airbrush makeup, intricate hairstyling, and draping.",
+      "duration": "180 mins",
+      "price": "₹18,999",
+      "isPackage": true
+    },
+    {
+      "id": "svc_23",
+      "category": "bridal",
+      "image": "/services/engagement-makeup.png",
+      "title": "Engagement Makeup",
+      "desc": "Elegant and glamorous makeup look for your engagement ceremony, designed to make you shine under any light.",
+      "duration": "90 mins",
+      "price": "₹4,999"
+    },
+    {
+      "id": "svc_24",
+      "category": "bridal",
+      "image": "/services/mehndi-makeup.png",
+      "title": "Mehndi Makeup",
+      "desc": "Fresh, colorful, and vibrant makeup look perfectly suited for the joy and energy of your mehndi celebration.",
+      "duration": "75 mins",
+      "price": "₹3,999"
+    },
+    {
+      "id": "svc_25",
+      "category": "bridal",
+      "image": "/services/haldi-makeup.png",
+      "title": "Haldi Makeup",
+      "desc": "Soft natural glowing makeup look for your haldi function, emphasizing your natural beauty and radiance.",
+      "duration": "60 mins",
+      "price": "₹2,499"
+    },
+    {
+      "id": "svc_26",
+      "category": "bridal",
+      "image": "/services/wedding-makeup.png",
+      "title": "Wedding Bridal Makeup",
+      "desc": "Full traditional bridal transformation for your big day, using premium products for a long-lasting, majestic look.",
+      "duration": "150 mins",
+      "price": "₹9,999"
+    },
+    {
+      "id": "svc_27",
+      "category": "bridal",
+      "image": "/services/reception-makeup.png",
+      "title": "Reception Makeup",
+      "desc": "Luxury glamorous makeup look for your reception event, blending sophistication with modern bridal elegance.",
+      "duration": "90 mins",
+      "price": "₹6,999"
+    }
+  ],
+  "packages": [
+    {
+      "id": "essential",
+      "name": "Essential Grooming",
+      "subtitle": "Perfect for monthly maintenance",
+      "originalPrice": "₹2,196",
+      "currentPrice": "₹1,499",
+      "priceSuffix": "/session",
+      "savings": "Save 32%",
+      "numericPrice": 1499,
+      "popular": false,
+      "features": [
+        {
+          "text": "Classic Cleansing Facial",
+          "included": true
+        },
+        {
+          "text": "Advanced Haircut & Blow Dry",
+          "included": true
+        },
+        {
+          "text": "Spa Manicure",
+          "included": true
+        },
+        {
+          "text": "Deep Tissue Massage",
+          "included": false
+        },
+        {
+          "text": "Keratin Hair Treatment",
+          "included": false
+        }
+      ]
+    },
+    {
+      "id": "signature",
+      "name": "Signature Radiance",
+      "subtitle": "Our most booked daily luxury",
+      "originalPrice": "₹4,196",
+      "currentPrice": "₹2,999",
+      "priceSuffix": "/session",
+      "savings": "Save 29%",
+      "numericPrice": 2999,
+      "popular": false,
+      "features": [
+        {
+          "text": "24K Gold Facial",
+          "included": true
+        },
+        {
+          "text": "Haircut & Professional Styling",
+          "included": true
+        },
+        {
+          "text": "Luxury Spa Mani-Pedi",
+          "included": true
+        },
+        {
+          "text": "Moroccan Hair Spa Treatment",
+          "included": true
+        },
+        {
+          "text": "Full Body Swedish Massage",
+          "included": false
+        }
+      ]
+    },
+    {
+      "id": "premium",
+      "name": "Premium Transformation",
+      "subtitle": "Complete head-to-toe makeover",
+      "originalPrice": "₹7,495",
+      "currentPrice": "₹4,999",
+      "priceSuffix": "/session",
+      "savings": "Save 33%",
+      "numericPrice": 4999,
+      "popular": true,
+      "features": [
+        {
+          "text": "Anti-Aging or Gold Facial",
+          "included": true
+        },
+        {
+          "text": "Global Hair Color / Highlights",
+          "included": true
+        },
+        {
+          "text": "Premium Mani-Pedi + Gel Polish",
+          "included": true
+        },
+        {
+          "text": "Hair Spa + Frizz Control Keratin",
+          "included": true
+        },
+        {
+          "text": "60-Min Classic Swedish Massage",
+          "included": true
+        }
+      ]
+    },
+    {
+      "id": "bridal",
+      "name": "Ultimate Pre-Bridal",
+      "subtitle": "The 30-day glow-up journey",
+      "originalPrice": "₹18,500",
+      "currentPrice": "₹12,499",
+      "priceSuffix": "/package",
+      "savings": "Save 32%",
+      "numericPrice": 12499,
+      "popular": false,
+      "features": [
+        {
+          "text": "3 Specialized Skin Treatments",
+          "included": true
+        },
+        {
+          "text": "Hair Botox & Scalp Detox",
+          "included": true
+        },
+        {
+          "text": "Acrylic Nail Extensions & Art",
+          "included": true
+        },
+        {
+          "text": "Full Body Polish & Wrap",
+          "included": true
+        },
+        {
+          "text": "Hot Stone Therapy Session",
+          "included": true
+        }
+      ]
+    }
+  ],
+  "bookings": [
+    {
+      "id": "fdiECeO_aIE",
+      "services": [
+        {
+          "name": "Advanced Hair Styling",
+          "price": 899
+        },
+        {
+          "name": "Global Hair Color",
+          "price": 2499
+        }
+      ],
+      "date": "17 June 2026",
+      "time": "11:00 AM",
+      "name": "Mahek Savaliya",
+      "email": "mahek@gmail.com",
+      "phone": "5232005321",
+      "total": 3398,
+      "bookingStatus": "Confirmed",
+      "paymentStatus": "Pending",
+      "bookedAt": "2026-06-16T08:52:46.153Z"
+    },
+    {
+      "id": "zhNXO5KqgWI",
+      "services": [
+        {
+          "name": "Advanced Hair Styling",
+          "price": 899
+        }
+      ],
+      "date": "17 June 2026",
+      "time": "10:30 AM",
+      "name": "Mahek Savaliya",
+      "email": "mahek@gmail.com",
+      "phone": "9632587412",
+      "total": 899,
+      "bookingStatus": "Confirmed",
+      "paymentStatus": "Pending",
+      "bookedAt": "2026-06-16T08:53:24.868Z"
+    },
+    {
+      "id": "S0f9aMJKMiA",
+      "services": [
+        {
+          "name": "Luxury Hair Spa",
+          "price": 1299
+        }
+      ],
+      "date": "17 June 2026",
+      "time": "11:30 AM",
+      "name": "Mahek Savaliya",
+      "email": "mahek@gmail.com",
+      "phone": "9638527415",
+      "total": 1299,
+      "bookingStatus": "Confirmed",
+      "paymentStatus": "Pending",
+      "bookedAt": "2026-06-16T08:59:29.281Z"
+    },
+    {
+      "id": "5bQ_sf9OFkc",
+      "services": [
+        {
+          "name": "Classic Haircut",
+          "price": 499
+        },
+        {
+          "name": "Luxury Hair Spa",
+          "price": 1299
+        }
+      ],
+      "date": "16 June 2026",
+      "time": "03:00 PM",
+      "name": "Mahek Savaliya",
+      "email": "mahek@gmail.com",
+      "phone": "9632587412",
+      "total": 1798,
+      "bookingStatus": "Confirmed",
+      "paymentStatus": "Paid",
+      "bookedAt": "2026-06-16T09:00:51.589Z",
+      "amountPaid": 1798,
+      "balanceRemaining": 0
+    },
+    {
+      "id": "k9bpFmpR3kM",
+      "services": [
+        {
+          "name": "Advanced Hair Styling",
+          "price": 899
+        }
+      ],
+      "date": "19 June 2026",
+      "time": "09:00 AM",
+      "name": "Mahek Savaliya",
+      "email": "mahek@gmail.com",
+      "phone": "9632587412",
+      "total": 899,
+      "bookingStatus": "Confirmed",
+      "paymentStatus": "Partially Paid",
+      "bookedAt": "2026-06-16T09:05:37.544Z",
+      "amountPaid": 449.5,
+      "balanceRemaining": 449.5
+    },
+    {
+      "id": "Iq9u_QhFOU0",
+      "services": [
+        {
+          "name": "Advanced Hair Styling",
+          "price": 899
+        }
+      ],
+      "date": "17 June 2026",
+      "time": "12:00 PM",
+      "name": "Mahek Savaliya",
+      "email": "mahek@gmail.com",
+      "phone": "8529637412",
+      "total": 899,
+      "bookingStatus": "Completed",
+      "paymentStatus": "Paid",
+      "bookedAt": "2026-06-16T09:25:40.473Z",
+      "amountPaid": 899,
+      "balanceRemaining": 0
+    },
+    {
+      "id": "-kuDkltwhNo",
+      "services": [
+        {
+          "name": "Advanced Hair Styling",
+          "price": 899
+        },
+        {
+          "name": "24K Gold Radiance Facial",
+          "price": 2499
+        }
+      ],
+      "date": "16 June 2026",
+      "time": "03:30 PM",
+      "name": "Dimpal N",
+      "email": "ndimpal991@gmail.com",
+      "phone": "9574816747",
+      "total": 3398,
+      "bookingStatus": "Completed",
+      "paymentStatus": "Paid",
+      "bookedAt": "2026-06-16T09:48:23.150Z",
+      "amountPaid": 3398,
+      "balanceRemaining": 0
+    },
+    {
+      "id": "ksqwuGItBkY",
+      "services": [
+        {
+          "name": "Keratin Treatment",
+          "price": 4999
+        },
+        {
+          "name": "Anti Aging Treatment",
+          "price": 3499
+        },
+        {
+          "name": "Essential Grooming",
+          "price": 1499
+        }
+      ],
+      "date": "17 June 2026",
+      "time": "12:30 PM",
+      "name": "Disha N",
+      "email": "disha@gmail.com",
+      "phone": "9632587412",
+      "total": 9997,
+      "bookingStatus": "Confirmed",
+      "paymentStatus": "Paid",
+      "bookedAt": "2026-06-16T16:31:40.411Z",
+      "amountPaid": 9997,
+      "balanceRemaining": 0
+    },
+    {
+      "id": "cR5IyygINdI",
+      "services": [
+        {
+          "name": "Advanced Hair Styling",
+          "price": 899
+        },
+        {
+          "name": "Premium Transformation",
+          "price": 4999
+        }
+      ],
+      "date": "18 June 2026",
+      "time": "11:00 AM",
+      "name": "Disha N",
+      "email": "disha@gmail.com",
+      "phone": "9632587412",
+      "total": 5898,
+      "bookingStatus": "Confirmed",
+      "paymentStatus": "Pending",
+      "bookedAt": "2026-06-17T03:51:38.959Z"
+    },
+    {
+      "id": "9g9PRO6BFF4",
+      "services": [
+        {
+          "name": "Advanced Hair Styling",
+          "price": 899
+        },
+        {
+          "name": "Premium Transformation",
+          "price": 4999
+        },
+        {
+          "name": "Anti-Aging Treatment",
+          "price": 3499
+        }
+      ],
+      "date": "18 June 2026",
+      "time": "12:30 PM",
+      "name": "Diya patel",
+      "email": "diya@gmail.com",
+      "phone": "9638527412",
+      "total": 9397,
+      "bookingStatus": "Confirmed",
+      "paymentStatus": "Paid",
+      "bookedAt": "2026-06-17T13:18:38.448Z",
+      "amountPaid": 9397,
+      "balanceRemaining": 0
+    },
+    {
+      "id": "i7KrQPp_Q2Q",
+      "services": [
+        {
+          "name": "Advanced Hair Styling",
+          "price": 899
+        }
+      ],
+      "date": "31 July 2026",
+      "time": "01:30 PM",
+      "name": "Diya patel",
+      "email": "diya@gmail.com",
+      "phone": "9638527412",
+      "total": 899,
+      "bookingStatus": "Confirmed",
+      "paymentStatus": "Pending",
+      "bookedAt": "2026-07-19T11:00:58.692Z"
+    },
+    {
+      "id": "R4dC2MXduRU",
+      "services": [
+        {
+          "name": "Advanced Hair Styling",
+          "price": 899
+        }
+      ],
+      "date": "6 September 2026",
+      "time": "09:30 AM",
+      "name": "Diya patel",
+      "email": "diya@gmail.com",
+      "phone": "9638527412",
+      "total": 899,
+      "bookingStatus": "Confirmed",
+      "paymentStatus": "Pending",
+      "bookedAt": "2026-09-05T10:41:17.978Z"
+    },
+    {
+      "id": "eJdWjvcgp-w",
+      "services": [
+        {
+          "name": "Advanced Hair Styling",
+          "price": 899
+        }
+      ],
+      "date": "12 September 2026",
+      "time": "09:00 AM",
+      "name": "Diya patel",
+      "email": "diya@gmail.com",
+      "phone": "9638527412",
+      "total": 899,
+      "bookingStatus": "Cancelled",
+      "paymentStatus": "Paid",
+      "bookedAt": "2026-09-11T08:17:05.075Z",
+      "amountPaid": 899,
+      "balanceRemaining": 0
+    },
+    {
+      "id": "KId380HpjL8",
+      "services": [
+        {
+          "name": "Premium Transformation",
+          "price": 4999
+        }
+      ],
+      "date": "12 September 2026",
+      "time": "09:00 AM",
+      "name": "Diya patel",
+      "email": "diya@gmail.com",
+      "phone": "9638527412",
+      "total": 4999,
+      "bookingStatus": "Pending",
+      "paymentStatus": "Partially Paid",
+      "bookedAt": "2026-09-11T08:20:58.517Z",
+      "amountPaid": 2499.5,
+      "balanceRemaining": 2499.5
+    }
+  ],
+  "payments": [],
+  "feedbacks": [
+    {
+      "rating": 5,
+      "message": "ryutbylml",
+      "name": "rtrtytyguhu",
+      "submittedAt": "2026-06-16T08:47:58.103Z",
+      "id": "EA8wDKxUsB8"
+    },
+    {
+      "rating": 5,
+      "message": "very nice services",
+      "name": "Disha N",
+      "submittedAt": "2026-06-16T16:33:48.694Z",
+      "id": "L5KNBHHK9x4"
+    },
+    {
+      "rating": 3,
+      "message": "jkbll",
+      "name": "diya",
+      "submittedAt": "2026-06-17T13:17:59.304Z",
+      "id": "du77fxKDk-I"
+    }
+  ],
+  "$schema": "./node_modules/json-server/schema.json"
+}
